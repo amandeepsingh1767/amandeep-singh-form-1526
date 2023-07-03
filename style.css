@@ -1,0 +1,79 @@
+html, body {
+    font-family: Arial, Helvetica Neue, sans-serif;
+    font-size: 1rem;
+}
+
+main {
+    max-width: 50rem;
+    padding: 1rem;
+}
+
+
+legend {
+    font-size: 2rem;
+    margin-left: 1rem;
+    z-index: 9;
+    position: relative;
+    border-radius: 2px;
+    border: 2px solid #DDD;
+    background-color: white;
+    display: inline-table;
+    padding: 1rem;
+    margin-bottom: -2rem;
+}
+
+
+.fields {
+    display: flex;
+    gap: 1rem;
+}
+
+.label-container {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.form {
+    border: 2px solid #DDD;
+    background-color: #F5f5f5;
+    padding: 3rem 1rem;
+}
+
+input,
+textarea {
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 2px;
+    border: 2px solid #DDD;
+    padding: .5rem;
+}
+
+#submit {
+    border-radius: 2px;
+    width: auto;
+    cursor: pointer;
+    background-color: #6495ED;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    padding: 1rem 4rem;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+@media screen and (max-width: 25rem) {
+    .fields {
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 50rem) {
+    main {
+        margin: 0 auto;
+    }
+}
